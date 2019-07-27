@@ -6,9 +6,23 @@
 Welcome to ML boilerplates's documentation!
 ===========================================
 
+.. .. toctree::
+..    :maxdepth: 2
+..    :caption: Contents:
+
+
+
+
+
+Case Studies
+========================
+
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+  :maxdepth: 2
+  :caption: Contents:
+  
+  tutorial/image2image
+  tutorial/image2json 
 
 
 
