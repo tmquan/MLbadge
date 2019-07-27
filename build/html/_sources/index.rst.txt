@@ -11,9 +11,6 @@ Welcome to ML boilerplates's documentation!
 ..    :caption: Contents:
 
 
-
-
-
 Case Studies
 ========================
 
@@ -22,7 +19,7 @@ Case Studies
   :caption: Contents:
   
   tutorial/image2image
-  tutorial/image2json 
+  tutorial/image2son 
 
 
 

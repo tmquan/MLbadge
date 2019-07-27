@@ -11,9 +11,6 @@ Welcome to ML boilerplates's documentation!
 ..    :caption: Contents:
 
 
-
-
-
 Case Studies
 ========================
 

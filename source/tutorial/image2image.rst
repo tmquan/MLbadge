@@ -68,6 +68,7 @@ In general, a typical training  has the following format:
     # Main
     #
     if __name__ == '__main__':
+        #------------------------------------------------------------------------------
         #
         parser = argparse.ArgumentParser()
         parser.add_argument('--data', help='the image directory')
@@ -76,20 +77,24 @@ In general, a typical training  has the following format:
         parser.add_argument('--sample', action='store_true', help='run inference')
         args = parser.parse_args()
         
+        #------------------------------------------------------------------------------
         # Choose the GPU
         if args.gpu:
             os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
             
         if args.sample:
+            #------------------------------------------------------------------------------
             # TODO: Run the inference
             pass
         else   
+            #------------------------------------------------------------------------------
             # Initialize the program
             writer = SummaryWriter()
             use_cuda = torch.cuda.is_available()
             xpu = torch.device("cuda" if torch.cuda.is_available() else "cpu")
             step = 0
 
+            #------------------------------------------------------------------------------
             # TODO
             net = CustomNetwork()
             optimizer = optim.Adam(net.parameters(), lr=3e-6)
