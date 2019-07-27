@@ -22,7 +22,7 @@ Case Studies
   :caption: Contents:
   
   tutorial/image2image
-  tutorial/image2json 
+  tutorial/image2son 
 
 
 

@@ -1,4 +1,4 @@
-A boilerplate to get started 
+A boilerplate for image-to-image translation 
 ***************************
 
 In general, a typical training  has the following format:
