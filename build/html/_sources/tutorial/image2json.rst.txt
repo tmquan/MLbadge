@@ -1,4 +1,4 @@
-A boilerplate for image-to- translation 
+A boilerplate for image-to-json translation 
 ***************************
 
 In general, a typical training  has the following format:
